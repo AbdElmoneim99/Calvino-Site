@@ -1,0 +1,546 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.clr {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home {
+  background-image: url(../img/h1_hero1.png);
+  height: 650px;
+  background-size: cover;
+  background-position: center;
+}
+
+.homelogo {
+  float: left;
+  margin-top: 15px;
+}
+
+.navlinks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+  padding-top: 12px;
+  overflow: auto;
+  margin-top: 16px;
+}
+
+.navlinks li a {
+  padding-left: 55px;
+  color: #192839;
+}
+
+.navlinks li p {
+  padding-left: 60px;
+  color: #fff;
+}
+
+.btn {
+  width: 130px;
+  height: 45px;
+  border-radius: 20px;
+  background-color: #ff4495;
+  color: white;
+  border: #ff4495;
+  text-align: center;
+  margin-left: 300px;
+  margin-top: 25px;
+  font-size: larger;
+}
+
+.description {
+  padding-top: 74px;
+  width: 34%;
+  margin-left: 106px;
+}
+
+.description .span {
+  color: #ff4495;
+  font-size: 14px;
+}
+
+.description h1 {
+  color: #192839;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  font-size: 55px;
+  margin-top: 30px;
+}
+
+.description p {
+  color: #212529;
+  font-size: 22px;
+  margin-top: 20px;
+  line-height: 1.4;
+  font-weight: normal;
+}
+
+.btn1 {
+  width: 210px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: #ff4495;
+  color: white;
+  border: #ff4495;
+  text-align: center;
+  margin-top: 25px;
+  font-size: larger;
+}
+
+.btn1:hover {
+  background-color: #fd62a5;
+}
+
+.services {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+
+.services .span {
+  color: #ff4495;
+  font-size: 17px;
+}
+
+.services h2 {
+  margin-bottom: 12px;
+  color: #192839;
+  line-height: 1.2;
+  font-size: 36px;
+  margin-top: 25px;
+}
+
+.coll {
+  width: 100%;
+  transition: all 0-5s;
+}
+
+.col:hover {
+  background-color: black;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  color: #ffffff;
+  h5 {
+    color: #ffffff;
+  }
+  .itemimg {
+    color: #ffffff;
+  }
+}
+
+.col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.items {
+  width: 100%;
+  margin-left: 120px;
+  margin-bottom: 70px;
+}
+
+.itemimg {
+  padding: 60px 0;
+  width: 20%;
+}
+
+.textitem {
+  color: #192839;
+}
+
+.textitem h5 {
+  font-size: 22px;
+}
+
+.textitem h4 {
+  font-size: 28px;
+}
+
+.textitem p {
+  font-size: 18px;
+}
+
+.aboutus {
+  padding: 70px 0;
+  background-color: #ffffff;
+}
+
+.aboutus .span {
+  color: #ff4495;
+  font-size: 17px;
+}
+
+.aboutus .aboutusimg {
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+
+.aboutus .aboutustext {
+  margin-top: 70px;
+  font-size: medium;
+}
+
+.aboutus .aboutustext p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #656565;
+}
+
+.aboutus .aboutustext h2 {
+  font-size: 35px;
+  line-height: 1.2;
+  margin-top: 20px;
+}
+
+.aboutus .aboutustext h3 {
+  line-height: 10;
+  text-decoration: underline;
+}
+
+.services .y,
+.services .m {
+  color: #192839;
+  font-size: 13px;
+  font-weight: 600;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 20px 0 0 20px;
+  cursor: pointer;
+}
+
+.col1 {
+  width: 33.33%;
+  padding: 0 15px;
+}
+
+.col1 .ii {
+  width: 20%;
+  padding-bottom: 20px;
+}
+
+.pricingplan ul li {
+  color: #192839;
+  font-weight: 300;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.pricingplan .span {
+  color: #ff4495;
+  font-size: 17px;
+}
+
+.btn2 {
+  width: 130px;
+  height: 45px;
+  border-radius: 20px;
+  background-color: #ff4495;
+  color: white;
+  border: #ff4495;
+  text-align: center;
+  margin-top: 25px;
+  font-size: larger;
+}
+
+.textitem .btn2:hover {
+  background-color: #ffffff;
+  color: #ff4495;
+}
+
+.container .brands {
+  width: 20%;
+  padding: 40 20px;
+}
+
+.container .photos .brands .brand {
+  width: 100%;
+  padding-top: 20px;
+  margin-bottom: 70px;
+}
+
+.container .photos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.whychooseus {
+  padding-top: 70px;
+  width: 50%;
+}
+
+.whychooseus .span {
+  color: #ff4495;
+  font-size: 17px;
+}
+
+.whychooseus h2 {
+  font-size: 37px;
+  color: #192839;
+  margin-top: 30px;
+  font-style: normal;
+  display: block;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.items1 {
+  width: 100%;
+}
+
+.robert {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.robert .aboutrobert {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.robert .pic {
+  width: 10%;
+  padding-bottom: 20px;
+  margin-left: 280px;
+}
+
+.robert p {
+  color: #232f55;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 0 26px;
+  font-family: "Jost", sans-serif;
+  margin-bottom: 20px;
+}
+
+.robert span {
+  color: #232f55;
+}
+
+.interested {
+  height: 600px;
+  background-image: url(../img/contact-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.interested .digging {
+  padding: 65px 80px 65px 60px;
+  margin-top: 30px;
+  background-image: url(../img/bg-2.png);
+  background-repeat: no-repeat;
+  width: 490px;
+  height: 505px;
+  text-align: center;
+  float: right;
+  margin-right: 250px;
+}
+
+.interested .digging h5 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 30px;
+  display: block;
+  line-height: 1.2;
+}
+
+.interested .digging p {
+  color: #fff;
+}
+
+.interested .digging .btn3 {
+  width: 170px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #fd62a5;
+  color: white;
+  border: #ffffff;
+  text-align: center;
+  margin-top: 55px;
+  font-size: larger;
+}
+
+.digging .btn3:hover {
+  background-color: #ffffff;
+  color: #ff4495;
+}
+
+.foot {
+  background-image: url(../img/footer-bg.jpg);
+  height: 400px;
+  padding: 50px 0;
+}
+
+.foot .aboutus {
+  width: 18%;
+  text-align: left;
+  float: left;
+  padding: 20px;
+  margin-left: 40px;
+}
+
+.foot .aboutus h5 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #1a1a1a;
+}
+
+.foot .aboutus .num {
+  font-size: 23px;
+  color: #ff4495;
+  text-decoration: underline;
+}
+
+.foot li {
+  color: #5e5e5e;
+  font-size: 16px;
+}
+
+.deepfoot {
+  float: left;
+  text-align: center;
+  background-color: #fff;
+  padding: 50px 0;
+  height: 70px;
+  width: 100%;
+}
+
+.deepfoot p {
+  margin-top: 20px;
+  color: #000;
+}
+
+/* responsive */
+
+/* 1200
+1024
+992
+768
+600 */
+
+/*HOME 1200px */
+
+/*HOME 1024px */
+@media screen and (max-width: 1024px) {
+  .col {
+    width: 50%;
+  }
+
+  .foot .aboutus {
+    width: 30%;
+  }
+}
+
+/*HOME 992px */
+
+/*HOME 768px */
+@media screen and (max-width: 768px) {
+  .btn {
+    margin-left: 50px;
+  }
+
+  .services {
+    margin: 150px;
+  }
+
+  .aboutus .aboutusimg {
+    width: 100%;
+  }
+
+  .textitem {
+    width: 150%;
+  }
+
+  .foot .aboutus {
+    width: 60%;
+  }
+
+  .col1 {
+    width: 50%;
+    margin-top: 30px;
+  }
+}
+
+/*HOME 600px */
+@media screen and (max-width: 600px) {
+  .description h1 {
+    font-size: 25px;
+    margin-top: 30px;
+  }
+
+  .description p {
+    font-size: 16px;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .col1 {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .brands .brand {
+    width: 100%;
+  }
+
+  .whychooseus h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .interested {
+    width: 300%;
+  }
+
+  .interested .digging {
+    margin-right: 1240px;
+  }
+
+  .robert .pic {
+    margin-left: 100px;
+    width: 20%;
+  }
+}
